@@ -13,7 +13,7 @@ struct LoginView: View {
     @EnvironmentObject private var appState: AppState
     @StateObject private var viewModel = LoginViewModel()
     
-    @State private var token: String = "0d023c5a-442c-4bc6-9084-30db95d111f1"
+    @State private var token: String = ""
     @State private var showServiceView: Bool = false
     @State private var showPolicyView: Bool = false
     @State private var showToast: Bool = false
